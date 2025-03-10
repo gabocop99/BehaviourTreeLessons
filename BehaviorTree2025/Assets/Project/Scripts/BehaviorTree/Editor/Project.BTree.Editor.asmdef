@@ -1,0 +1,19 @@
+{
+    "name": "Project.BTree.Editor",
+    "rootNamespace": "Project.BTree.Editor",
+    "references": [
+        "GUID:7c264d823ce8bd441ac1d470c0f562fd",
+        "GUID:2efab7ff388203e4dadd95d9b539e0f3"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

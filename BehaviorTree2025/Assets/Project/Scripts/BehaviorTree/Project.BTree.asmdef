@@ -1,0 +1,16 @@
+{
+    "name": "Project.BTree",
+    "rootNamespace": "Project.BTree",
+    "references": [
+        "GUID:2efab7ff388203e4dadd95d9b539e0f3"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
