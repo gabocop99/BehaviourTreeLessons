@@ -1,10 +1,7 @@
 {
-    "name": "Project.BTree",
-    "rootNamespace": "Project.BTree",
-    "references": [
-        "GUID:2efab7ff388203e4dadd95d9b539e0f3",
-        "GUID:40b35bf2340921843a3dcc198ee6bc86"
-    ],
+    "name": "Project",
+    "rootNamespace": "Project",
+    "references": [],
     "includePlatforms": [],
     "excludePlatforms": [],
     "allowUnsafeCode": false,

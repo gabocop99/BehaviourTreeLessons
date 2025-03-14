@@ -2,5 +2,7 @@ using UnityEngine;
 
 namespace BTree
 {
-    public class LoadTransformListMemoryAtStart : ALoadMemoryAtStart<Transform[]> { }
+    public class LoadTransformListMemoryAtStart : ALoadMemoryAtStart<Transform[]>
+    {
+    }
 }
