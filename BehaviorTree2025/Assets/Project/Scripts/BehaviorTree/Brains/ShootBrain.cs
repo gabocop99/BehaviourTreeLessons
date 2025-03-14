@@ -17,21 +17,22 @@ namespace Project.BTree
             //6- false = move towards player
             
             //check detection
-            var updateCurrentTarget = new UpdateCurrentTargetNode("CurrentIndex", "Points", TargetKey); //check if it has target
+            var hasTarget = new CheckTargetNode(TargetKey);
+            var notHasTarget = new NotNode(hasTarget);
             var searchTarget = new SearchTargetNode(TargetKey); //if !hasTarget: searchTarget
-            var nextIndex = new NextIndexNode("CurrentIndex", "Points");
             
             //check distance
-            var isCloseTo = new IsCloseToNode("MinDistance", TargetKey);
+            var isCloseTo = new IsCloseToNode("Distance", TargetKey);
+            var isFarFrom = new NotNode(isCloseTo);
             var moveTo = new MoveTowardsNode("Speed", TargetKey); //if it has: MoveTowards
-            var failNode = new FailureNode(updateCurrentTarget);
             
             //shoot
             var shoot = new ShootNode("BulletSpeed", TargetKey);
                 
             //sequence & root
-            var sequence = new SequenceNode(searchTarget, isCloseTo, nextIndex);
-            var root = new SelectorNode(failNode, sequence, failNode, moveTo, shoot);
+            var sequenceHasTarget = new SequenceNode(notHasTarget, searchTarget);
+            var sequenceCheckDistance = new SequenceNode(isFarFrom, moveTo);
+            var root = new SelectorNode(sequenceHasTarget, sequenceCheckDistance ,shoot);
             
             var bt = new BehaviourTree(root);
             bt.OrderAllNodes();

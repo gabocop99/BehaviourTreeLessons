@@ -1,5 +1,4 @@
 using UnityEngine;
-
 namespace BTree
 {
     public class SearchTargetNode : LeafNode
@@ -13,20 +12,14 @@ namespace BTree
         
         protected override NodeState EvaluationMethod(AThinker thinker)
         {
-            if (!thinker.Memory.TryGetData(_targetKey, out var targetObj))
-            {
-                return NodeState.Failure;
-            }
+            var enemy = Object.FindObjectOfType<Enemy>();
 
-            RaycastHit hit;
-            Vector3 origin = thinker.transform.position;
-            Vector3 direction = thinker.transform.forward;
-            float maxDistance = 10f;
-
-            if(Physics.Raycast(origin, direction, out hit, maxDistance))
+            if (enemy != null)
             {
-                return hit.collider.gameObject == (targetObj as GameObject) ? NodeState.Failure : NodeState.Success;
+                thinker.Memory.AddOrEditData(_targetKey, enemy.transform);
+                return NodeState.Success;
             }
+  
             return NodeState.Failure;
         }
     }

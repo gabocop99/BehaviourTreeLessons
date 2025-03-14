@@ -19,14 +19,14 @@ namespace BTree
                 return NodeState.Failure;
             }
 
-            RaycastHit hit;
-            Vector3 origin = thinker.transform.position;
-            Vector3 direction = thinker.transform.forward;
-            float maxDistance = 10f;
+            // RaycastHit hit;
+            // Vector3 origin = thinker.transform.position;
+            // Vector3 direction = thinker.transform.forward;
+            // float maxDistance = 10f;
             
             Debug.Log("Shoot");
             
-            return NodeState.Failure;
+            return NodeState.Success;
         }
     }
 }
