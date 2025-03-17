@@ -611,15 +611,41 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0038c16c34866b4f9e25c9c0dc0f7e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Graph: {fileID: 5507254552848560398, guid: 73e5faf3a240481408874c79fb7ea0cd, type: 2}
+  m_Graph: {fileID: 5507254552848560398, guid: 2090608047d5ff249ae255bdace6105c, type: 2}
   m_BlackboardVariableOverridesList:
   - rid: 8392448392185512228
-  - rid: 8392448392185512229
+  - rid: 673579913201320365
+  - rid: 673579913201320468
+  - rid: 673579913201320470
   m_IsInitialised: 0
   m_IsStarted: 0
   references:
     version: 2
     RefIds:
+    - rid: 673579913201320365
+      type: {class: 'BlackboardVariable`1[[UnityEngine.Transform, UnityEngine.CoreModule]]', ns: Unity.Behavior, asm: Unity.Behavior}
+      data:
+        GUID:
+          m_Value0: 330294749429469414
+          m_Value1: 60951136389008459
+        Name: Target
+        m_Value: {fileID: 2012189661}
+    - rid: 673579913201320468
+      type: {class: 'BlackboardVariable`1[[System.Single, mscorlib]]', ns: Unity.Behavior, asm: Unity.Behavior}
+      data:
+        GUID:
+          m_Value0: 9646910680887870485
+          m_Value1: 12138361149890708337
+        Name: A
+        m_Value: 7
+    - rid: 673579913201320470
+      type: {class: 'BlackboardVariable`1[[System.Single, mscorlib]]', ns: Unity.Behavior, asm: Unity.Behavior}
+      data:
+        GUID:
+          m_Value0: 10043626076438874911
+          m_Value1: 5260963675627114192
+        Name: DistanceToAttack
+        m_Value: 0.6
     - rid: 8392448392185512228
       type: {class: 'BlackboardVariable`1[[UnityEngine.GameObject, UnityEngine.CoreModule]]', ns: Unity.Behavior, asm: Unity.Behavior}
       data:
@@ -628,14 +654,6 @@ MonoBehaviour:
           m_Value1: 0
         Name: Self
         m_Value: {fileID: 1255506226}
-    - rid: 8392448392185512229
-      type: {class: 'BlackboardVariable`1[[UnityEngine.Transform, UnityEngine.CoreModule]]', ns: Unity.Behavior, asm: Unity.Behavior}
-      data:
-        GUID:
-          m_Value0: 11436995004781370836
-          m_Value1: 424181581139872596
-        Name: Target
-        m_Value: {fileID: 2012189661}
 --- !u!4 &1255506228
 Transform:
   m_ObjectHideFlags: 0
