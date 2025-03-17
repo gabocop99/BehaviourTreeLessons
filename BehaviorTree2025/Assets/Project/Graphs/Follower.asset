@@ -101,7 +101,7 @@ MonoBehaviour:
   - rid: 673579913201320705
   - rid: 673579913201320706
   - rid: 673579913201320784
-  m_VersionTimestamp: 638778235815382853
+  m_VersionTimestamp: 638778249369396106
   m_DebugInfo: {fileID: 4627231791948408951}
   m_RuntimeGraph: {fileID: 5507254552848560398}
   AssetID:
@@ -573,7 +573,7 @@ MonoBehaviour:
     - rid: 673579913201320666
       type: {class: BranchingConditionNodeModel, ns: Unity.Behavior, asm: Unity.Behavior.Authoring}
       data:
-        Position: {x: -120.028885, y: 142.89842}
+        Position: {x: -120.028885, y: 143.83015}
         ID:
           m_Value0: 4366761149421938085
           m_Value1: 7021110037700124254
@@ -1202,7 +1202,7 @@ MonoBehaviour:
         AuthoringAssetID:
           m_Value0: 2666084007499829280
           m_Value1: 6634055880702026394
-        m_DebugInfo: {fileID: 0}
+        m_DebugInfo: {fileID: 4627231791948408951}
         Root:
           rid: 673579913201320955
         BlackboardReference:
@@ -1214,7 +1214,7 @@ MonoBehaviour:
           rid: 673579913201320957
         m_EndedNodes:
           rid: 673579913201320958
-        m_VersionTimestamp: 638778235815382853
+        m_VersionTimestamp: 638778249369396106
     - rid: 673579913201320955
       type: {class: Start, ns: Unity.Behavior, asm: Unity.Behavior}
       data:
@@ -1500,7 +1500,7 @@ MonoBehaviour:
   - rid: 673579913201320092
   - rid: 673579913201320117
   - rid: 673579913201320417
-  m_VersionTimestamp: 638778235659594543
+  m_VersionTimestamp: 638778249369396106
   m_CommandBuffer:
     m_Commands: []
   m_RuntimeBlackboardAsset: {fileID: -1298442653333739066}
