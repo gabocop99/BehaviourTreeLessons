@@ -7,7 +7,7 @@ using Unity.Properties;
 
 
 [Serializable, GeneratePropertyBag]
-[NodeDescription(name: "GetRandomTargetFromList", story: "Get Random [Target] from List: [Targets]", category: "Action", id: "fc751b4713c4ba1ba613c87ca6898949")]
+[NodeDescription(name: "GetRandomTargetFromList", story: "Get new Random [Target] from List [Targets]", category: "Action", id: "fc751b4713c4ba1ba613c87ca6898949")]
 public partial class GetRandomTargetFromListAction : Action
 {
     [SerializeReference] public BlackboardVariable<GameObject> Target;
@@ -29,9 +29,17 @@ public partial class GetRandomTargetFromListAction : Action
     }
 
     private void GetTarget()
-    {
-        int randomIndex = UnityEngine.Random.Range(0, Targets.Value.Count);
-        Target.Value = Targets.Value[randomIndex];
+    { 
+        GameObject oldTarget = Target.Value;
+        List<GameObject> availableTargets = new List<GameObject>(Targets.Value.FindAll(t => t != oldTarget && t != null));
+
+        if (availableTargets.Count == 0)
+        {
+            if (oldTarget != null) { Target.Value = oldTarget; return; } 
+            return; 
+        }
+        int randomIndex = UnityEngine.Random.Range(0, availableTargets.Count);
+        Target.Value = availableTargets[randomIndex];
     }
 }
 
