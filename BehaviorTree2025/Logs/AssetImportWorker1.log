@@ -203,3 +203,247 @@ Received Import Request.
 Start importing Assets/Project/Graphs/MultiTargets.asset using Guid(c3f048273fc1d3249a7d0375b50e4712) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd96c53eaff426ead733d84755a0fb129') in 0.2102481 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
 
+========================================================================
+Received Import Request.
+  Time since last request: 469.138402 seconds.
+  path: Assets/Readme.asset
+  artifactKey: Guid(8105016687592461f977c054a80ce2f2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Readme.asset using Guid(8105016687592461f977c054a80ce2f2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a491c23f4426a7a2e21916ca1503d1d0') in 0.351846 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/BehaviourTree/Scripts/Thinkers/AThinker.cs
+  artifactKey: Guid(b056555c7563abb4d8a6df965515089e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourTree/Scripts/Thinkers/AThinker.cs using Guid(b056555c7563abb4d8a6df965515089e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '92eaae3efa0c80b0f70c9e11636dd1df') in 0.0452034 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/BehaviorActions/MoveTowardsAction.cs
+  artifactKey: Guid(95975ded80c976242ad298e224710307) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviorActions/MoveTowardsAction.cs using Guid(95975ded80c976242ad298e224710307) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7ee5db07b423ade90205162cba3d41cd') in 0.0249088 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Project/Materials/eyes.mat
+  artifactKey: Guid(3b796a6d7b1561b49836ebc06d741d85) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Project/Materials/eyes.mat using Guid(3b796a6d7b1561b49836ebc06d741d85) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '20978de38779de6fdb469c43bf8b234c') in 0.0752257 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/BehaviourTree/Scripts/Memory/BTMemory.cs
+  artifactKey: Guid(297c2684ac50f924bb792f7471ff54ea) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourTree/Scripts/Memory/BTMemory.cs using Guid(297c2684ac50f924bb792f7471ff54ea) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '696d137e0ed8ba47d789b3c0b121705d') in 0.0177321 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/BehaviorActions/ModAction.cs
+  artifactKey: Guid(8cd2b997a6917d644bfabff59acebdab) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviorActions/ModAction.cs using Guid(8cd2b997a6917d644bfabff59acebdab) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '31c2e99be08c92ab99a04c22a5378653') in 0.013793 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Scenes/MainScene.unity
+  artifactKey: Guid(99c9720ab356a0642a771bea13969a05) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/MainScene.unity using Guid(99c9720ab356a0642a771bea13969a05) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '341900fe55bd989325c1b074e79285aa') in 0.0343245 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/BehaviorActions/Phase.cs
+  artifactKey: Guid(74c2c797800ca29409a74b9d6b50afaa) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviorActions/Phase.cs using Guid(74c2c797800ca29409a74b9d6b50afaa) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1488737ae3dcf1daeeab5fa642f8032d') in 0.0134414 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Settings/PC_RPAsset.asset
+  artifactKey: Guid(4b83569d67af61e458304325a23e5dfd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Settings/PC_RPAsset.asset using Guid(4b83569d67af61e458304325a23e5dfd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '412844d791b30617208f43bf00538f56') in 0.0907186 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/TutorialInfo/Layout.wlt
+  artifactKey: Guid(eabc9546105bf4accac1fd62a63e88e6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TutorialInfo/Layout.wlt using Guid(eabc9546105bf4accac1fd62a63e88e6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9825eba901e6baa364ac884684f22c02') in 0.0114916 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/TutorialInfo/Icons/URP.png
+  artifactKey: Guid(727a75301c3d24613a3ebcec4a24c2c8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TutorialInfo/Icons/URP.png using Guid(727a75301c3d24613a3ebcec4a24c2c8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '90f5cd257d47b690152cc67462a048f0') in 0.0975532 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/BehaviorActions/GetDirectionBetweenAction.cs
+  artifactKey: Guid(bbee994599f83fe448ec7010017f0746) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviorActions/GetDirectionBetweenAction.cs using Guid(bbee994599f83fe448ec7010017f0746) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9b943b1dcb6dd8132a8a82d05f0693f4') in 0.0139453 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Project/Graphs/Follower.asset
+  artifactKey: Guid(2090608047d5ff249ae255bdace6105c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Project/Graphs/Follower.asset using Guid(2090608047d5ff249ae255bdace6105c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f0775a9bd76de4eaef239420dc0bd28c') in 0.1387133 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/TutorialInfo/Scripts/Readme.cs
+  artifactKey: Guid(fcf7219bab7fe46a1ad266029b2fee19) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TutorialInfo/Scripts/Readme.cs using Guid(fcf7219bab7fe46a1ad266029b2fee19) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ab899f3bfce5066c6632e76862f7f34d') in 0.0171308 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Project/Materials/ground.mat
+  artifactKey: Guid(0aa334a76bf052e48bbafc004a459ec7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Project/Materials/ground.mat using Guid(0aa334a76bf052e48bbafc004a459ec7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'dde2300328cdec68a6e4db64ac2d629c') in 0.0293316 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Settings/Mobile_Renderer.asset
+  artifactKey: Guid(65bc7dbf4170f435aa868c779acfb082) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Settings/Mobile_Renderer.asset using Guid(65bc7dbf4170f435aa868c779acfb082) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5ec6f31b7af5aa38323e5b3e01fcc475') in 0.0625496 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Project/Scripts/BehaviorTree/Nodes/Leaves/NextIndexNode.cs
+  artifactKey: Guid(2094221fafcaaaf4298a3aad684dfe88) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Project/Scripts/BehaviorTree/Nodes/Leaves/NextIndexNode.cs using Guid(2094221fafcaaaf4298a3aad684dfe88) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5c914bbee39c9d13063551233626d82c') in 0.0144339 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/BehaviourTree/Scripts/Nodes/Leaves/MoveTowardsNode.cs
+  artifactKey: Guid(25fc5f29989b0c446a5fc2ce8512543d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourTree/Scripts/Nodes/Leaves/MoveTowardsNode.cs using Guid(25fc5f29989b0c446a5fc2ce8512543d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '34322facb58d8b849d6fdb64883cb076') in 0.0146044 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/BehaviourTree/Scripts/Nodes/Decorator/NotNode.cs
+  artifactKey: Guid(9602494bd172ca14d82c8d70cc6502c8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourTree/Scripts/Nodes/Decorator/NotNode.cs using Guid(9602494bd172ca14d82c8d70cc6502c8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8bce5e10bcf1225e5134dc35f3bb781a') in 0.0191389 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Settings/SampleSceneProfile.asset
+  artifactKey: Guid(10fc4df2da32a41aaa32d77bc913491c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Settings/SampleSceneProfile.asset using Guid(10fc4df2da32a41aaa32d77bc913491c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9a1c1b7a5a38a1387c8b46a2494feed8') in 0.0238463 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/BehaviorActions/IsNullOrEmptyCondition.cs
+  artifactKey: Guid(d1caf080f87da924fba425bcc0b5aaed) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviorActions/IsNullOrEmptyCondition.cs using Guid(d1caf080f87da924fba425bcc0b5aaed) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '47b44628e06dbde2ad4313eab20db7ec') in 0.0224062 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/BehaviourTree/Scripts/Nodes/Leaves/LogNode.cs
+  artifactKey: Guid(1f9a6eb78e4ae444a9e0d4b9a70a6935) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourTree/Scripts/Nodes/Leaves/LogNode.cs using Guid(1f9a6eb78e4ae444a9e0d4b9a70a6935) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'dae5403ed6b3d7115732f50ee3187948') in 0.0412706 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/TutorialInfo/Scripts/Editor/ReadmeEditor.cs
+  artifactKey: Guid(476cc7d7cd9874016adc216baab94a0a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TutorialInfo/Scripts/Editor/ReadmeEditor.cs using Guid(476cc7d7cd9874016adc216baab94a0a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3097f9c1c2a1846dc057d397f35a6957') in 0.020484 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/BehaviourTree/BTree.asmdef
+  artifactKey: Guid(2efab7ff388203e4dadd95d9b539e0f3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourTree/BTree.asmdef using Guid(2efab7ff388203e4dadd95d9b539e0f3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6804a4fd4c2306c9300df487038d3ef7') in 0.0288989 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Project/Data/Brains/BR_patrol.asset
+  artifactKey: Guid(e0a39656b792ee9408137cbccc2e30ff) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Project/Data/Brains/BR_patrol.asset using Guid(e0a39656b792ee9408137cbccc2e30ff) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b3a9bb6ceabeb8e3b553f00a531b8b2b') in 0.0249344 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Settings/PC_Renderer.asset
+  artifactKey: Guid(f288ae1f4751b564a96ac7587541f7a2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Settings/PC_Renderer.asset using Guid(f288ae1f4751b564a96ac7587541f7a2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'bb84ef98b69ce68e6137ef1e0695076e') in 0.0304342 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/BehaviourTree/Scripts/Editor/BTree.Editor.asmdef
+  artifactKey: Guid(1a2be5da30f33364bb72e2b0199def7b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BehaviourTree/Scripts/Editor/BTree.Editor.asmdef using Guid(1a2be5da30f33364bb72e2b0199def7b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9cf36187e01157f6d2115bd0f6334775') in 0.0530443 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Project/Scripts/BehaviorTree/Brains/ABrain.cs
+  artifactKey: Guid(c170364ec6e7d18438a3979eeae582be) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Project/Scripts/BehaviorTree/Brains/ABrain.cs using Guid(c170364ec6e7d18438a3979eeae582be) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '02c36b1779ad204aae6e2dcd43eb1a45') in 0.0113932 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Settings/UniversalRenderPipelineGlobalSettings.asset
+  artifactKey: Guid(18dc0cd2c080841dea60987a38ce93fa) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Settings/UniversalRenderPipelineGlobalSettings.asset using Guid(18dc0cd2c080841dea60987a38ce93fa) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3aa5166e3150902e4c40f6ee35278932') in 0.0514912 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Project/Scripts/BehaviorTree/BrainInjector.cs
+  artifactKey: Guid(824a16f62cbe631478f64946d32094bb) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Project/Scripts/BehaviorTree/BrainInjector.cs using Guid(824a16f62cbe631478f64946d32094bb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c5419b4d853e2da952eeb41aec498a0e') in 0.2459623 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
