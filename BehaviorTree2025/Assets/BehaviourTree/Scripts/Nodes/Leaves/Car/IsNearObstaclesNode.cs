@@ -54,6 +54,7 @@ namespace BTree
             }
             
             //sum rayVectors
+            return NodeState.Success;
             
         }
     }

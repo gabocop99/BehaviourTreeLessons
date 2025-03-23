@@ -21,7 +21,7 @@ namespace Project.BTree
             var notMoveForward = new NotNode(moveForward);
             
             
-            var root = new SelectorNode();
+            var root = new SelectorNode(notMoveForward);
             var bt = new BehaviourTree(root);
             bt.OrderAllNodes();
             bt.RegisterToNodes();
