@@ -2,6 +2,7 @@ using System;
 using Unity.Behavior;
 using Composite = Unity.Behavior.Composite;
 using Unity.Properties;
+using UnityEngine;
 
 [Serializable, GeneratePropertyBag]
 [NodeDescription(name: "CustomSelector", story: "Il selector che funziona", category: "Flow", id: "250ae82305ceht52f2d557d402cef9c1")]
@@ -29,6 +30,7 @@ public partial class CustomSelector : Composite
                     return Status.Failure;
             }
         }
+        
 
         return Status.Failure;
     }
