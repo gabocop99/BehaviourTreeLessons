@@ -1,5 +1,7 @@
+using System;
 using TMPro;
 using UnityEngine;
+using UnityEngine.Serialization;
 using UnityEngine.UI;
 
 namespace Revisione.Scripts.Crafting
@@ -7,11 +9,12 @@ namespace Revisione.Scripts.Crafting
     [RequireComponent(typeof(Button))]
     public class RecipeButton : MonoBehaviour
     {
-        [SerializeField]
-        private Recipe _recipe;
+        [SerializeField] private Recipe _recipe;
 
         private Button _button;
         private TMP_Text _text;
+
+        public event Action<Recipe> OnRecipeSelected;
 
         private void Awake()
         {
@@ -32,6 +35,7 @@ namespace Revisione.Scripts.Crafting
             }
 
             CraftingBenchStatus.CurrentRecipe = _recipe;
+            OnRecipeSelected?.Invoke(_recipe);
         }
     }
 
@@ -41,11 +45,12 @@ namespace Revisione.Scripts.Crafting
         public string Name = "Recipe";
         public int WoodRequired = 0;
         public int MetalRequired = 0;
-        public int ClotRequired = 0;
+        public int ClothRequired = 0;
 
         public string ToText()
         {
-            return $"{Name}\n{WoodRequired}W-{MetalRequired}M-{ClotRequired}C";;
+            return $"{Name}\n{WoodRequired}W-{MetalRequired}M-{ClothRequired}C";
+            ;
         }
     }
 }

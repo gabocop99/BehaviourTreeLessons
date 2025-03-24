@@ -468,6 +468,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 123353667}
+  - component: {fileID: 123353669}
+  - component: {fileID: 123353668}
   m_Layer: 0
   m_Name: Agent
   m_TagString: Untagged
@@ -491,6 +493,42 @@ Transform:
   - {fileID: 122937867}
   m_Father: {fileID: 918997492}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &123353668
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 123353666}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f7087e9df846d54fb8e7df5f998ddca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Recipe:
+    Name: Recipe
+    WoodRequired: 0
+    MetalRequired: 0
+    ClothRequired: 0
+--- !u!114 &123353669
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 123353666}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0038c16c34866b4f9e25c9c0dc0f7e6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Graph: {fileID: 0}
+  m_BlackboardVariableOverridesList: []
+  m_IsInitialised: 0
+  m_IsStarted: 0
+  references:
+    version: 2
+    RefIds: []
 --- !u!1 &178706516
 GameObject:
   m_ObjectHideFlags: 0
@@ -629,10 +667,10 @@ RectTransform:
   - {fileID: 721437036}
   m_Father: {fileID: 1852951100}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 75, y: -875}
-  m_SizeDelta: {x: 150, y: 150}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 150}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &217129530
 MonoBehaviour:
@@ -732,7 +770,7 @@ MonoBehaviour:
     Name: Helmet
     WoodRequired: 0
     MetalRequired: 2
-    ClotRequired: 1
+    ClothRequired: 1
 --- !u!1 &236597477
 GameObject:
   m_ObjectHideFlags: 0
@@ -1070,10 +1108,10 @@ RectTransform:
   - {fileID: 1583662984}
   m_Father: {fileID: 1852951100}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 75, y: -235}
-  m_SizeDelta: {x: 150, y: 150}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 150}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &504203947
 MonoBehaviour:
@@ -1173,7 +1211,7 @@ MonoBehaviour:
     Name: Sword
     WoodRequired: 1
     MetalRequired: 2
-    ClotRequired: 0
+    ClothRequired: 0
 --- !u!1 &521354409
 GameObject:
   m_ObjectHideFlags: 0
@@ -1434,7 +1472,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &702038369
 Transform:
   m_ObjectHideFlags: 0
@@ -1489,10 +1527,10 @@ RectTransform:
   - {fileID: 1358343284}
   m_Father: {fileID: 1852951100}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 75, y: -75}
-  m_SizeDelta: {x: 150, y: 150}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 150}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &716486480
 MonoBehaviour:
@@ -1592,7 +1630,7 @@ MonoBehaviour:
     Name: Gloves
     WoodRequired: 0
     MetalRequired: 0
-    ClotRequired: 3
+    ClothRequired: 3
 --- !u!1 &721437035
 GameObject:
   m_ObjectHideFlags: 0
@@ -1766,10 +1804,10 @@ RectTransform:
   - {fileID: 1730736808}
   m_Father: {fileID: 1852951100}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 75, y: -395}
-  m_SizeDelta: {x: 150, y: 150}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 150}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &859743835
 MonoBehaviour:
@@ -1869,7 +1907,7 @@ MonoBehaviour:
     Name: Bow
     WoodRequired: 3
     MetalRequired: 0
-    ClotRequired: 0
+    ClothRequired: 0
 --- !u!1 &875570689
 GameObject:
   m_ObjectHideFlags: 0
@@ -2003,7 +2041,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &918997492
 Transform:
   m_ObjectHideFlags: 0
@@ -2352,10 +2390,10 @@ RectTransform:
   - {fileID: 31574643}
   m_Father: {fileID: 1852951100}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 75, y: -715}
-  m_SizeDelta: {x: 150, y: 150}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 150}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1154617859
 MonoBehaviour:
@@ -2455,7 +2493,7 @@ MonoBehaviour:
     Name: Boots
     WoodRequired: 0
     MetalRequired: 1
-    ClotRequired: 2
+    ClothRequired: 2
 --- !u!1 &1191405341
 GameObject:
   m_ObjectHideFlags: 0
@@ -2582,7 +2620,11 @@ MonoBehaviour:
 
 
     IN CraftingBenchStatus POTETE TROVARE A RUNTIME LA CURRENT
-    RECIPE E POPOLARLA CON I MATERIALI ATTUALMENTE SULLA CRAFTING BENCH'
+    RECIPE E POPOLARLA CON I MATERIALI ATTUALMENTE SULLA CRAFTING BENCH
+
+
+    Controllare
+    Script di CrafterAgent per pseudo codice dell''esercizio.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -3601,10 +3643,10 @@ RectTransform:
   - {fileID: 1844451562}
   m_Father: {fileID: 1852951100}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 75, y: -555}
-  m_SizeDelta: {x: 150, y: 150}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 150}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1746208655
 MonoBehaviour:
@@ -3704,7 +3746,7 @@ MonoBehaviour:
     Name: Shield
     WoodRequired: 1
     MetalRequired: 2
-    ClotRequired: 1
+    ClothRequired: 1
 --- !u!1 &1844451561
 GameObject:
   m_ObjectHideFlags: 0
