@@ -1183,6 +1183,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 521354410}
+  - component: {fileID: 521354411}
   m_Layer: 0
   m_Name: Agent
   m_TagString: Untagged
@@ -1206,6 +1207,52 @@ Transform:
   - {fileID: 361152778}
   m_Father: {fileID: 702038369}
   m_LocalEulerAnglesHint: {x: 0, y: 126.014, z: 0}
+--- !u!114 &521354411
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 521354409}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0038c16c34866b4f9e25c9c0dc0f7e6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Graph: {fileID: -1734760784779936187, guid: efa830ae020052a498d07f58c007efbf, type: 2}
+  m_BlackboardVariableOverridesList:
+  - rid: 1562640776436383947
+  - rid: 1562640776436383948
+  - rid: 1562640776436383949
+  m_IsInitialised: 0
+  m_IsStarted: 0
+  references:
+    version: 2
+    RefIds:
+    - rid: 1562640776436383947
+      type: {class: 'BlackboardVariable`1[[UnityEngine.GameObject, UnityEngine.CoreModule]]', ns: Unity.Behavior, asm: Unity.Behavior}
+      data:
+        GUID:
+          m_Value0: 1
+          m_Value1: 0
+        Name: Self
+        m_Value: {fileID: 521354409}
+    - rid: 1562640776436383948
+      type: {class: 'BlackboardVariable`1[[UnityEngine.Transform, UnityEngine.CoreModule]]', ns: Unity.Behavior, asm: Unity.Behavior}
+      data:
+        GUID:
+          m_Value0: 5230418456333836353
+          m_Value1: 10097958888614334596
+        Name: Target
+        m_Value: {fileID: 1261506435}
+    - rid: 1562640776436383949
+      type: {class: 'BlackboardVariable`1[[System.Single, mscorlib]]', ns: Unity.Behavior, asm: Unity.Behavior}
+      data:
+        GUID:
+          m_Value0: 18438745280288825166
+          m_Value1: 6845485930894111722
+        Name: Speed
+        m_Value: 0.5
 --- !u!1 &551904883
 GameObject:
   m_ObjectHideFlags: 0
