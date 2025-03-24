@@ -1,0 +1,1 @@
+Quando il player riceve una recipe cicla tra i materiali e raggiunge le transform dei depositi, avrei fatto con una action custom utilizzabile per tutti i tipi di materiale, forse con uno switch, e.g. GatherResource. ecc.
