@@ -1199,14 +1199,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 521354409}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0.38299108, z: -0, w: 0.923752}
-  m_LocalPosition: {x: -4.93, y: 0, z: 4.51}
+  m_LocalRotation: {x: -0, y: 0.9918175, z: -0, w: 0.1276642}
+  m_LocalPosition: {x: 0.9022631, y: 0, z: 9.899947}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 361152778}
   m_Father: {fileID: 702038369}
-  m_LocalEulerAnglesHint: {x: 0, y: -45.038, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 165.331, z: 0}
 --- !u!114 &521354411
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1223,6 +1223,11 @@ MonoBehaviour:
   m_BlackboardVariableOverridesList:
   - rid: 7656968745406431338
   - rid: 7656968745406431427
+  - rid: 7656968745406431874
+  - rid: 7656968745406431875
+  - rid: 7656968745406431876
+  - rid: 7656968745406432185
+  - rid: 7656968747813961943
   m_IsInitialised: 0
   m_IsStarted: 0
   references:
@@ -1244,6 +1249,46 @@ MonoBehaviour:
           m_Value1: 15736888811902606290
         Name: Target
         m_Value: {fileID: 1261506435}
+    - rid: 7656968745406431874
+      type: {class: 'BlackboardVariable`1[[System.Single, mscorlib]]', ns: Unity.Behavior, asm: Unity.Behavior}
+      data:
+        GUID:
+          m_Value0: 17914657275020380868
+          m_Value1: 12899898623278993699
+        Name: MaxDistance
+        m_Value: 10
+    - rid: 7656968745406431875
+      type: {class: 'BlackboardVariable`1[[System.Single, mscorlib]]', ns: Unity.Behavior, asm: Unity.Behavior}
+      data:
+        GUID:
+          m_Value0: 2658964563401152328
+          m_Value1: 3546735820538694307
+        Name: MinDistance
+        m_Value: 5
+    - rid: 7656968745406431876
+      type: {class: 'BlackboardVariable`1[[System.Single, mscorlib]]', ns: Unity.Behavior, asm: Unity.Behavior}
+      data:
+        GUID:
+          m_Value0: 1432230377422096534
+          m_Value1: 8644818500193726548
+        Name: WaitTime
+        m_Value: 2
+    - rid: 7656968745406432185
+      type: {class: 'BlackboardVariable`1[[System.Single, mscorlib]]', ns: Unity.Behavior, asm: Unity.Behavior}
+      data:
+        GUID:
+          m_Value0: 36776870839148092
+          m_Value1: 2633901806676540144
+        Name: DistanceFromPlayer
+        m_Value: 3
+    - rid: 7656968747813961943
+      type: {class: 'BlackboardVariable`1[[System.Single, mscorlib]]', ns: Unity.Behavior, asm: Unity.Behavior}
+      data:
+        GUID:
+          m_Value0: 11053989363953086862
+          m_Value1: 3996729282752690463
+        Name: TimeBetweenBullets
+        m_Value: 2
 --- !u!1 &551904883
 GameObject:
   m_ObjectHideFlags: 0
