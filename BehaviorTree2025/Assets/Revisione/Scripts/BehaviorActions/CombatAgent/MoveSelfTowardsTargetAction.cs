@@ -23,7 +23,7 @@ public partial class MoveSelfTowardsTargetAction : Action
         var magnitude = Mathf.Min(Time.deltaTime * shooter.MovementSpeed, distance.magnitude);
         Self.Value.transform.position += magnitude * distance.normalized;
 
-        return Status.Running;
+        return Status.Success;
     }
 
     protected override Status OnUpdate()

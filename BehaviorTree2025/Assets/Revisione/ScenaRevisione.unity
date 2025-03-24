@@ -1222,6 +1222,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MovementSpeed: 5
   Range: {x: 4, y: 7}
+  ShootCooldown: 2
+  BulletPrefab: {fileID: 7117742784815804309, guid: de5c0c7518068554b912138375ec2a21, type: 3}
 --- !u!114 &521354412
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2667,6 +2669,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1261506435}
   - component: {fileID: 1261506436}
+  - component: {fileID: 1261506437}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -2702,6 +2705,29 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: befb96f987755eb42bae4206c9d9c958, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!136 &1261506437
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1261506434}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.5
+  m_Height: 2
+  m_Direction: 1
+  m_Center: {x: 0, y: 1, z: 0}
 --- !u!1 &1337417171
 GameObject:
   m_ObjectHideFlags: 0
