@@ -468,6 +468,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 123353667}
+  - component: {fileID: 123353668}
+  - component: {fileID: 123353669}
   m_Layer: 0
   m_Name: Agent
   m_TagString: Untagged
@@ -491,6 +493,70 @@ Transform:
   - {fileID: 122937867}
   m_Father: {fileID: 918997492}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &123353668
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 123353666}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f07dd04113aa3a4988f0eeb36ca3627, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CurrentRecipe:
+    Name: Recipe
+    WoodRequired: 0
+    MetalRequired: 0
+    ClotRequired: 0
+  IsBusy: 0
+--- !u!114 &123353669
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 123353666}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0038c16c34866b4f9e25c9c0dc0f7e6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Graph: {fileID: 7461123555194398925, guid: a1405d4f95d47fd4dbae206f477e0304, type: 2}
+  m_BlackboardVariableOverridesList:
+  - rid: 7879272407090856251
+  - rid: 7879272407090856252
+  - rid: 7879272407090856253
+  m_IsInitialised: 0
+  m_IsStarted: 0
+  references:
+    version: 2
+    RefIds:
+    - rid: 7879272407090856251
+      type: {class: 'BlackboardVariable`1[[UnityEngine.GameObject, UnityEngine.CoreModule]]', ns: Unity.Behavior, asm: Unity.Behavior}
+      data:
+        GUID:
+          m_Value0: 1
+          m_Value1: 0
+        Name: Self
+        m_Value: {fileID: 123353666}
+    - rid: 7879272407090856252
+      type: {class: 'BlackboardVariable`1[[System.Single, mscorlib]]', ns: Unity.Behavior, asm: Unity.Behavior}
+      data:
+        GUID:
+          m_Value0: 7632581448532312000
+          m_Value1: 15570221713456732329
+        Name: AgentSpeed
+        m_Value: 5
+    - rid: 7879272407090856253
+      type: {class: 'BlackboardVariable`1[[UnityEngine.Transform, UnityEngine.CoreModule]]', ns: Unity.Behavior, asm: Unity.Behavior}
+      data:
+        GUID:
+          m_Value0: 12039344021382377850
+          m_Value1: 16174720228678688821
+        Name: RoomCenter
+        m_Value: {fileID: 1214307017}
 --- !u!1 &178706516
 GameObject:
   m_ObjectHideFlags: 0
@@ -2021,6 +2087,8 @@ Transform:
   - {fileID: 580488467}
   - {fileID: 123353667}
   - {fileID: 178706517}
+  - {fileID: 1062723479}
+  - {fileID: 1214307017}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &937280150
@@ -2230,6 +2298,53 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 943313317}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1062723478
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1062723479}
+  - component: {fileID: 1062723480}
+  m_Layer: 0
+  m_Name: CraftingBenchStatus
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1062723479
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1062723478}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 918997492}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1062723480
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1062723478}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a880f4907dca3aa4394370162b02e109, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CurrentWood: 0
+  CurrentMetal: 0
+  CurrentCloth: 0
 --- !u!1 &1126289097
 GameObject:
   m_ObjectHideFlags: 0
@@ -2487,6 +2602,37 @@ Transform:
   - {fileID: 875570690}
   m_Father: {fileID: 580488467}
   m_LocalEulerAnglesHint: {x: 0, y: -251.224, z: 0}
+--- !u!1 &1214307016
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1214307017}
+  m_Layer: 0
+  m_Name: RoomCenter
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1214307017
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1214307016}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 918997492}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1214818335
 GameObject:
   m_ObjectHideFlags: 0

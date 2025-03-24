@@ -1,23 +1,47 @@
-public static class CraftingBenchStatus
+using System;
+using UnityEngine;
+
+public class CraftingBenchStatus : MonoBehaviour
 {
-    public static Recipe CurrentRecipe;
+    public static CraftingBenchStatus Instance;
 
-    public static int CurrentWood;
-    public static int CurrentMetal;
-    public static int CurrentCloth;
+    public event Action<Recipe> OnRecipeChanged;
 
-    public static bool HasAllMaterials()
+    private Recipe _currentRecipe;
+
+    public Recipe CurrentRecipe
+    {
+        get { return _currentRecipe; }
+        set
+        {
+            OnRecipeChanged?.Invoke(value);
+            _currentRecipe = value;
+        }
+    }
+
+    public int CurrentWood;
+    public int CurrentMetal;
+    public int CurrentCloth;
+
+    private void Awake()
+    {
+        Instance = this;
+    }
+
+    public bool HasAllMaterials()
     {
         if (CurrentRecipe == null)
         {
             return false;
         }
+
         return CurrentWood > CurrentRecipe.WoodRequired &&
                CurrentMetal > CurrentRecipe.MetalRequired &&
                CurrentCloth > CurrentRecipe.ClotRequired;
     }
-    
-    public static void RecipeDelivered()
+
+    [ContextMenu("RecipeDelivered")]
+    public void RecipeDelivered()
     {
         CurrentRecipe = null;
     }

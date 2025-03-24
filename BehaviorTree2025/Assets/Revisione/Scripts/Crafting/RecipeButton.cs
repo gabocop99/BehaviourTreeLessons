@@ -1,3 +1,4 @@
+using System;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
@@ -5,8 +6,7 @@ using UnityEngine.UI;
 [RequireComponent(typeof(Button))]
 public class RecipeButton : MonoBehaviour
 {
-    [SerializeField]
-    private Recipe _recipe;
+    [SerializeField] private Recipe _recipe;
 
     private Button _button;
     private TMP_Text _text;
@@ -18,18 +18,21 @@ public class RecipeButton : MonoBehaviour
 
         _text = GetComponentInChildren<TMP_Text>();
         _text.text = _recipe.ToText();
+    }
 
-        CraftingBenchStatus.CurrentRecipe = null;
+    private void Start()
+    {
+        CraftingBenchStatus.Instance.CurrentRecipe = null;
     }
 
     private void OnClick()
     {
-        if (CraftingBenchStatus.CurrentRecipe != null)
+        if (CraftingBenchStatus.Instance.CurrentRecipe != null)
         {
             return;
         }
 
-        CraftingBenchStatus.CurrentRecipe = _recipe;
+        CraftingBenchStatus.Instance.CurrentRecipe = _recipe;
     }
 }
 
@@ -43,6 +46,6 @@ public class Recipe
 
     public string ToText()
     {
-        return $"{Name}\n{WoodRequired}W-{MetalRequired}M-{ClotRequired}C";;
+        return $"{Name}\n{WoodRequired}W-{MetalRequired}M-{ClotRequired}C";
     }
 }
