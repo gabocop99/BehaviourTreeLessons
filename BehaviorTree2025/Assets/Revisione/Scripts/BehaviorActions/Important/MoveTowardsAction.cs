@@ -27,7 +27,7 @@ public partial class MoveTowardsAction : Action
         }
         if(floatDistance < MinDistance)
         {
-            var magnitude = Mathf.Min(Time.deltaTime * UnitPerSecond.Value, distance.magnitude);
+            var magnitude = Mathf.Min(Time.deltaTime * -UnitPerSecond.Value, distance.magnitude);
             Agent.Value.position += magnitude * distance.normalized;
         }
 
