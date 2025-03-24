@@ -1206,6 +1206,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 361152778}
+  - {fileID: 2107195760}
   m_Father: {fileID: 702038369}
   m_LocalEulerAnglesHint: {x: 0, y: 126.014, z: 0}
 --- !u!114 &521354411
@@ -1222,8 +1223,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MovementSpeed: 5
   Range: {x: 4, y: 7}
-  ShootCooldown: 2
   BulletPrefab: {fileID: 7117742784815804309, guid: de5c0c7518068554b912138375ec2a21, type: 3}
+  Muzzle: {fileID: 2107195760}
 --- !u!114 &521354412
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4377,6 +4378,37 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2075573552}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &2107195759
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2107195760}
+  m_Layer: 0
+  m_Name: Muzzle
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2107195760
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2107195759}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 1.143, z: 0.862}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 521354410}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2118334257
 GameObject:
   m_ObjectHideFlags: 0

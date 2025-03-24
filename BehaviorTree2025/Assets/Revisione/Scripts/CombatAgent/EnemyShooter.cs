@@ -6,11 +6,12 @@ public class EnemyShooter : MonoBehaviour
     public float MovementSpeed;
     [Tooltip("x = minRange, y = maxRange")]public Vector2 Range;
     public Bullet BulletPrefab;
+    public Transform Muzzle;
 
     [ContextMenu("Shoot")]
     public void Shoot()
     {
-        Instantiate(BulletPrefab.gameObject, transform.position, transform.localRotation);
+        Instantiate(BulletPrefab.gameObject, Muzzle.position, transform.localRotation);
     }
     
     private void OnDrawGizmos()
