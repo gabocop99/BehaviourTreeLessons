@@ -1,3 +1,5 @@
+using Revisione.Scripts.Crafting;
+
 public static class CraftingBenchStatus
 {
     public static Recipe CurrentRecipe;

@@ -18,7 +18,7 @@ namespace Revisione.Scripts.BehaviorActions.CustomActions
 
         protected override Status OnStart()
         {
-            if (!Self.Value.TryGetComponent<Agent>(out var agent))
+            if (!Self.Value.TryGetComponent<CombatAgent>(out var agent))
             {
                 Debug.LogError("[TryMoveAwayAction] Agent is null");
                 return Status.Failure;

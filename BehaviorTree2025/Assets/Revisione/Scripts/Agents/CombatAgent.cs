@@ -2,7 +2,7 @@ using UnityEngine;
 
 namespace Revisione.Scripts.Agents
 {
-    public class Agent : MonoBehaviour
+    public class CombatAgent : MonoBehaviour
     {
         public float MaxRange;
         public float MinRange;

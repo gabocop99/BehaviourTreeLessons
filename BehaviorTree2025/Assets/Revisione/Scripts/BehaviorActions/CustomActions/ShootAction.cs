@@ -16,7 +16,7 @@ namespace Revisione.Scripts.BehaviorActions.CustomActions
     [SerializeReference] public BlackboardVariable<bool> IsIdle;
         protected override Status OnStart()
         {
-            if (!Self.Value.TryGetComponent<Agent>(out var agent))
+            if (!Self.Value.TryGetComponent<CombatAgent>(out var agent))
             {
                 Debug.LogError("[ShootAction] Agent is null");
                 return Status.Failure;

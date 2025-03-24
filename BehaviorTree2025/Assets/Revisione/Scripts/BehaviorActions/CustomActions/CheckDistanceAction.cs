@@ -18,7 +18,7 @@ namespace Revisione.Scripts.BehaviorActions.CustomActions
 
         protected override Status OnStart()
         {
-            if (!Self.Value.TryGetComponent<Agent>(out var agentData))
+            if (!Self.Value.TryGetComponent<CombatAgent>(out var agentData))
             {
                 Debug.LogError("[CheckDistanceAction] Agent is null");
                 return Status.Failure;
