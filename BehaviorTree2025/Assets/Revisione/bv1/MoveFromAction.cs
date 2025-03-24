@@ -14,6 +14,7 @@ public partial class MoveFromAction : Action
 
     protected override Status OnStart()
     {
+        Agent.Value.transform.LookAt(Target.Value);
         var distance = Agent.Value.position - Target.Value.position;
         var magnitude = Mathf.Min(Time.deltaTime * Speed.Value, distance.magnitude);
         Agent.Value.position += magnitude * distance.normalized;
