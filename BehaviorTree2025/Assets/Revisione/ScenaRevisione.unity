@@ -468,6 +468,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 123353667}
+  - component: {fileID: 123353668}
   m_Layer: 0
   m_Name: Agent
   m_TagString: Untagged
@@ -491,6 +492,43 @@ Transform:
   - {fileID: 122937867}
   m_Father: {fileID: 918997492}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &123353668
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 123353666}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0038c16c34866b4f9e25c9c0dc0f7e6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Graph: {fileID: -3149689290838597578, guid: fac20e041531bfa46a669ed656489b7b, type: 2}
+  m_BlackboardVariableOverridesList:
+  - rid: 4581396933256151831
+  - rid: 4581396933256151832
+  m_IsInitialised: 0
+  m_IsStarted: 0
+  references:
+    version: 2
+    RefIds:
+    - rid: 4581396933256151831
+      type: {class: 'BlackboardVariable`1[[UnityEngine.GameObject, UnityEngine.CoreModule]]', ns: Unity.Behavior, asm: Unity.Behavior}
+      data:
+        GUID:
+          m_Value0: 1
+          m_Value1: 0
+        Name: Self
+        m_Value: {fileID: 123353666}
+    - rid: 4581396933256151832
+      type: {class: 'BlackboardVariable`1[[UnityEngine.Transform, UnityEngine.CoreModule]]', ns: Unity.Behavior, asm: Unity.Behavior}
+      data:
+        GUID:
+          m_Value0: 10057856614878165314
+          m_Value1: 4811117765669193459
+        Name: Center
+        m_Value: {fileID: 756423934}
 --- !u!1 &178706516
 GameObject:
   m_ObjectHideFlags: 0
@@ -1183,6 +1221,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 521354410}
+  - component: {fileID: 521354411}
   m_Layer: 0
   m_Name: Agent
   m_TagString: Untagged
@@ -1206,6 +1245,43 @@ Transform:
   - {fileID: 361152778}
   m_Father: {fileID: 702038369}
   m_LocalEulerAnglesHint: {x: 0, y: 126.014, z: 0}
+--- !u!114 &521354411
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 521354409}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0038c16c34866b4f9e25c9c0dc0f7e6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Graph: {fileID: 3421816852752971547, guid: 16b1e5a0340e7b34f88311c98ee3a77a, type: 2}
+  m_BlackboardVariableOverridesList:
+  - rid: 4581396933256151103
+  - rid: 4581396933256151104
+  m_IsInitialised: 0
+  m_IsStarted: 0
+  references:
+    version: 2
+    RefIds:
+    - rid: 4581396933256151103
+      type: {class: 'BlackboardVariable`1[[UnityEngine.GameObject, UnityEngine.CoreModule]]', ns: Unity.Behavior, asm: Unity.Behavior}
+      data:
+        GUID:
+          m_Value0: 1
+          m_Value1: 0
+        Name: Self
+        m_Value: {fileID: 521354409}
+    - rid: 4581396933256151104
+      type: {class: 'BlackboardVariable`1[[UnityEngine.Transform, UnityEngine.CoreModule]]', ns: Unity.Behavior, asm: Unity.Behavior}
+      data:
+        GUID:
+          m_Value0: 14418180686321697089
+          m_Value1: 12747109293024323063
+        Name: Target
+        m_Value: {fileID: 1261506435}
 --- !u!1 &551904883
 GameObject:
   m_ObjectHideFlags: 0
@@ -1683,6 +1759,37 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 721437035}
   m_CullTransparentMesh: 1
+--- !u!1 &756423933
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 756423934}
+  m_Layer: 0
+  m_Name: Center
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &756423934
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 756423933}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 918997492}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &859743833
 GameObject:
   m_ObjectHideFlags: 0
@@ -1974,6 +2081,7 @@ Transform:
   - {fileID: 580488467}
   - {fileID: 123353667}
   - {fileID: 178706517}
+  - {fileID: 756423934}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &937280150

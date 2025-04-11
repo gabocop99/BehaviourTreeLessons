@@ -5,18 +5,19 @@ using Action = Unity.Behavior.Action;
 using Unity.Properties;
 
 [Serializable, GeneratePropertyBag]
-[NodeDescription(name: "MoveTowards", story: "Move [Agent] towards [Target] by [UnitPerSecond]", category: "Action/Transform", id: "ad7a6ceb8e97fbb45d3c9fc0317719b2")]
+[NodeDescription(name: "MoveTowards", story: "Move [Agent] towards [Target] by [UnitPerSecond] , [IsInverted]", category: "Action/Transform", id: "ad7a6ceb8e97fbb45d3c9fc0317719b2")]
 public partial class MoveTowardsAction : Action
 {
     [SerializeReference] public BlackboardVariable<Transform> Agent;
     [SerializeReference] public BlackboardVariable<Transform> Target;
     [SerializeReference] public BlackboardVariable<float> UnitPerSecond;
+    [SerializeReference] public BlackboardVariable<bool> IsInverted;
 
     protected override Status OnStart()
     {
         var distance = Target.Value.position - Agent.Value.position;
         var magnitude = Mathf.Min(Time.deltaTime * UnitPerSecond.Value, distance.magnitude);
-        Agent.Value.position += magnitude * distance.normalized;
+        Agent.Value.position += magnitude * distance.normalized * (IsInverted ? -1 : 1);
 
         return Status.Success;
     }
